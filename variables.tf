@@ -9,17 +9,17 @@ variable "name" {
 }
 
 variable "description" {
-  type = string
+  type    = string
   default = ""
 }
 
 variable "enabled" {
-  type = bool
+  type    = bool
   default = true
 }
 
 variable "pre_shared_key" {
-  type = string
+  type    = string
   default = ""
 }
 
@@ -36,11 +36,12 @@ variable "remote_ip_address" {
 }
 
 variable "remote_id" {
-  type = string
+  type    = string
+  default = ""
 }
 
 variable "remote_networks" {
-  type = list(string)
+  type    = list(string)
   default = ["0.0.0.0/0"]
 }
 
