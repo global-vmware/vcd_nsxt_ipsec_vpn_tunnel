@@ -38,8 +38,6 @@ This Terraform module will deploy an IPSec VPN Tunnel on an NSX-T Edge Gateway i
 | authentication_mode | The authentication mode for the IPSec VPN tunnel | string | "PSK" | no |
 | certificate_alias | The alias of the library certificate to use for authentication | string | "" | no |
 | ca_certificate_alias | The alias of the CA certificate to use for authentication | string | "" | no |
-| certificate_id | The ID of the library certificate to use for authentication | string | "" | no |
-| ca_certificate_id | The ID of the CA certificate to use for authentication | string | "" | no |
 
 ## Outputs
 

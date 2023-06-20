@@ -60,12 +60,3 @@ variable "certificate_alias" {
 variable "ca_certificate_alias" {
   default = ""
 }
-
-variable "certificate_id" {
-  default = ""
-}
-
-variable "ca_certificate_id" {
-  default = ""
-}
-
