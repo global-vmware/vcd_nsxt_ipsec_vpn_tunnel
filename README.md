@@ -1,6 +1,6 @@
 # Terraform VMware Cloud Director NSX-T IPSec VPN Tunnel Module
 
-This Terraform module will deploy an IPSec VPN Tunnel on an NSX-T Edge Gateway in a VMware Cloud Director (VCD) environment. This module can be used to provsion a new IPSec VPN Tunnel into [Rackspace Technology SDDC Flex](https://www.rackspace.com/cloud/private/software-defined-data-center-flex) VCD Data Center Regions.
+This Terraform module will deploy an IPSec VPN Tunnel on an NSX-T Edge Gateway in a VMware Cloud Director (VCD) environment. This module can be used to provision a new IPSec VPN Tunnel into [Rackspace Technology SDDC Flex](https://www.rackspace.com/cloud/private/software-defined-data-center-flex) VCD Data Center Regions.
 
 ## Requirements
 
@@ -57,7 +57,7 @@ This Terraform module will deploy an IPSec VPN Tunnel on an NSX-T Edge Gateway i
 
 ```terraform
 module "vcd_nsxt_ipsec_vpn_tunnel" {
-  source                = "github.com/global-vmware/vcd_nsxt_ipsec_vpn_tunnel.git?ref=v1.1.0"
+  source                = "github.com/global-vmware/vcd_nsxt_ipsec_vpn_tunnel.git?ref=v1.1.1"
 
   vdc_org_name          = "<US1-VDC-ORG-NAME>"
   vdc_group_name        = "<US1-VDC-GRP-NAME>"
